@@ -1,0 +1,19 @@
+# create image
+docker build .
+
+# show images
+docker images
+
+# remove image
+docker image rm eee1c6f0f80e
+
+# run container
+docker run -p 3001:8001 08128a8e2985
+
+# list all containers
+docker ps -a
+
+
+
+
+
