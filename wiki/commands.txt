@@ -15,5 +15,12 @@ docker ps -a
 
 
 
+docker build -t my-php ./php
+
+docker run -p 8001:80 -d my-php
+
+
+
+
 
 
