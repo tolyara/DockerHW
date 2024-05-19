@@ -21,6 +21,17 @@ docker run -p 8001:80 -d my-php
 
 
 
+# cd php/
+ docker-compose build
+
+ docker-compose up
+
+
+
+
+
+
+
 
 
 
